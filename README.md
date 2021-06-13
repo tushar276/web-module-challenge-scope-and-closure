@@ -43,6 +43,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,9 +65,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+function personalDice(name) is providing a closure because variables dansRoll & zoesRoll use the values from this closure.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+the name is always the same while the number is changed.
 c. What is the lexical scope of `newRoll`? 
-
+the lexical scope of 'newball' is within the function.
 
 ### Task 3 - Stretch Goals
 
