@@ -43,6 +43,8 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+Closure gives access to an outer function's scope from an inner funtion. A closure is the combination of a function
+bundled together with references to its surrounding state.
 
 2. Study the following code, then answer the questions below.
 
@@ -67,9 +69,9 @@ dansRoll();
 a. Where is closure used in this code? How can you tell?
 function personalDice(name) is providing a closure because variables dansRoll & zoesRoll use the values from this closure.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-the name is always the same while the number is changed.
+The name is always the same while the number is changed.
 c. What is the lexical scope of `newRoll`? 
-the lexical scope of 'newball' is within the function.
+The lexical scope of 'newball' is within the function.
 
 ### Task 3 - Stretch Goals
 
@@ -86,6 +88,12 @@ addSix(21); // returns 27
 ```
 
 2. Research the differences between functional programming and object oriented programming. Then, describe the pros and cons of functional programming vs object-oriented programming. This is a common interview question and great practice!
+
+In Functional programming, data cannot be stored in objects, and it can only be transformed by creating functions.
+While in object oriented programming, data is stored in objects.Funtional programming does not support conditional statements whereas Object oriented programming supports conditional statements like if-else and switch statement.The basic elements of
+functional programming are Variables and Functions while the basic elements of object-oriented programming are objects and methods.
+
+FP Pros : 
 
 ## Resources
 
